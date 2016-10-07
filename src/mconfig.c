@@ -32,6 +32,7 @@
 #define Y "classify"
 
 /* Default configuration */
+/*config_default_t是mconfig.h中定义的结构体*/
 static config_default_t defaults[] = {
     /* Input */
     {G, "input_format", CONFIG_TYPE_STRING, {.str = "text"}},
